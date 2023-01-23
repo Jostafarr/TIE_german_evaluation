@@ -1,4 +1,6 @@
 from __future__ import absolute_import, division, print_function
+import sys
+sys.path.append("/Users/jostgotte/Documents/Uni/WS2223/rtiai/TIE/")
 
 import argparse
 import logging
