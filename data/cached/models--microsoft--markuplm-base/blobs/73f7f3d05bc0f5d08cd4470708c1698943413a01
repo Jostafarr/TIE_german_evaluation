@@ -1,0 +1,31 @@
+{
+  "architectures": [
+    "MarkupLMForPretraining"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-05,
+  "max_depth": 50,
+  "max_position_embeddings": 514,
+  "max_xpath_subs_unit_embeddings": 1024,
+  "max_xpath_tag_unit_embeddings": 256,
+  "model_type": "markuplm",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float16",
+  "transformers_version": "4.10.2",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 50267,
+  "xpath_unit_hidden_size": 32
+}
